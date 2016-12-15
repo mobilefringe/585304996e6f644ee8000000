@@ -94,7 +94,7 @@
                             <a href='/events' >EVENTS</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <a href='/pages/cornwall-guest-services' >GUEST SERVICES</a>
+                            <a href='/pages/heritage-guest-services' >GUEST SERVICES</a>
                         </li>      
                         <li class="mobile_menu_header" >
                             <a href='/jobs' >CAREERS</a>
@@ -106,29 +106,20 @@
                             <a href='/hours'>Shopping Hours</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/cornwall-leasing'>Leasing</a>
+                            <a href='/pages/heritage-leasing'>Leasing</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/cornwall-mall-info'>Mall Info</a>
+                            <a href='/pages/heritage-mall-info'>Mall Info</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/cornwall-accessibility'>Accessibility</a>
+                            <a href='/pages/heritage-accessibility'>Accessibility</a>
                         </li>        
                         <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-community-wifi'>Community Relations</a>
+                          <a href='/pages/heritage-community-wifi'>Community Relations</a>
                         </li>
                         <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-contact-us'>Contact Us</a>
+                          <a href='/pages/heritage-contact-us'>Contact Us</a>
                         </li>
-                        <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-security'>Security</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-parking-at-cornwall-centre'>Parking Info</a>
-                        </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/posts' >BLOG</a>
-                        </li> 
                     </ul>
                     <a id="mobile_logo" href="/">
                         <img class="mobile_logo" ALT="mobile_logo" src="//www.mallmaverick.com/system/sites/logo_images/000/000/023/original/mall_logo.png?1381508700" />
@@ -213,9 +204,6 @@
                                 <a class="nav_a" href='/pages/cornwall-parking-at-cornwall-centre' target='_self'><span>Parking Info</span> </a>        
                             </li>
                         </ul>
-                    </li>
-                    <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/posts'">BLOG</button>
                     </li>
                 </ul>
                 <hr>
@@ -394,19 +382,15 @@
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                 <a class="site_map_submenu" href='/hours' target='_self'>Shopping Hours</a>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/cornwall-leasing' target='_self'>Leasing</a>
+                                <a class="site_map_submenu" href='/pages/heritage-leasing' target='_self'>Leasing</a>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/cornwall-mall-info' target='_self'>Mall Info</a>
+                                <a class="site_map_submenu" href='/pages/heritage-mall-info' target='_self'>Mall Info</a>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/cornwall-accessibility' target='_self'>Accessibility</a>
+                                <a class="site_map_submenu" href='/pages/heritage-accessibility' target='_self'>Accessibility</a>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/cornwall-community-wifi' target='_self'>Community Relations</a>
+                                <a class="site_map_submenu" href='/pages/heritage-community-wifi' target='_self'>Community</a>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/cornwall-contact-us' target='_self'>Contact Us</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/cornwall-security' target='_self'>Security</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/cornwall-parking-at-cornwall-centre' target='_self'>Parking Info</a>
+                                <a class="site_map_submenu" href='/pages/heritage-contact-us' target='_self'>Contact Us</a>
                             </div>
                             <div class="nav_sitemap_item">
                                 <span class="site_map_title">
@@ -434,7 +418,7 @@
         </div>
         <div class="footer trim_screen">
             <span>
-                &copy; 2015 Cornwall Centre | <a href="/pages/cornwall-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+                &copy; 2015 Cornwall Centre | <a href="/pages/heritage-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="//www.20vic.com/" target="_blank">
                 <img ALT="20vic_logo" src="//aberdeenmall.ca/system/site_images/photos/000/000/775/original/20vic_logo.png?1381341465" />
