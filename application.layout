@@ -45,7 +45,7 @@
     <script src="//codecloud.cdn.speedyrails.net/sites/5841df6b6e6f640488010000/text/javascript/1478472594000/lightbox.min.js"></script>
     <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
     <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
-    <script src="//kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
+    <script src="//s3.amazonaws.com/kodekloud/sites/582e04fa6e6f644b9c000000/text/javascript/1432640222000/smoothzoom.js"></script>
     
     
     <!--MallMaverick SDK-->
@@ -55,19 +55,19 @@
     <script src="/application.js" type="text/javascript"></script>
 
     <script>
-        setEndPoint('//heritage.mallmaverick.com/api/v3/heritage/all.json');
+        setEndPoint('//aberdeen.mallmaverick.com/api/v3/aberdeen/all.json');
     </script>
 </head>
 
 <body>
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <header>
         <!--Header -->
         <div class="header">
@@ -94,7 +94,7 @@
                             <a href='/events' >EVENTS</a>
                         </li>
                         <li class="mobile_menu_header" >
-                            <a href='/pages/heritage-guest-services' >GUEST SERVICES</a>
+                            <a href='/pages/aberdeen-guest-services' >GUEST SERVICES</a>
                         </li>      
                         <li class="mobile_menu_header" >
                             <a href='/jobs' >CAREERS</a>
@@ -106,23 +106,33 @@
                             <a href='/hours'>Shopping Hours</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/heritage-leasing'>Leasing</a>
+                            <a href='/pages/aberdeen-leasing'>Leasing</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/heritage-mall-info'>Mall Info</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/pages/heritage-accessibility'>Accessibility</a>
+                            <a href='/pages/aberdeen-accessibility'>Accessibility</a>
                         </li>        
                         <li class="mobile_menu_item">
-                          <a href='/pages/heritage-community-wifi'>Community</a>
+                            <a href='/pages/aberdeen-sponsorships-donations'>Sponsorships & Donations</a>
                         </li>
                         <li class="mobile_menu_item">
-                          <a href='/pages/heritage-contact-us'>Contact Us</a>
+                          <a href='/pages/aberdeen-community-bookings'>Community Bookings</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                          <a href='/pages/aberdeen-marketing-advertising'>Marketing & Advertising</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                          <a href='/pages/aberdeen-security'>Security</a>
+                        </li>
+                    
+                        <li class="mobile_menu_item">
+                          <a href='/pages/aberdeen-contact-us'>Contact Us</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                          <a href='/pages/aberdeen-faq'>FAQ</a>
                         </li>
                     </ul>
                     <a id="mobile_logo" href="/">
-                        <img class="mobile_logo" ALT="mobile_logo" src="//www.mallmaverick.com/system/sites/logo_images/000/000/026/original/mall_logo.png?1382116915" />
+                        <img ALT="mobile_logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108" />
                     </a>
                 </div>
                 <!-- iphone header END --> 
@@ -150,7 +160,7 @@
         <div class="hidden-xs row-fluid">
 	  	    <div class="trim_screen nav_container" id="site_nav">              
                 <a id="centre_logo" href="/">
-                    <img ALT="centre_logo" src="//www.mallmaverick.com/system/sites/logo_images/000/000/026/original/mall_logo.png?1382116915" style="max-width:95%" />
+                    <img ALT="centre_logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108" style="max-width:95%" />
                 </a>
                 <ul>                  
                     <li class="dropdown ">
@@ -171,7 +181,7 @@
                         <button class="btn-nav" onclick="window.location.href='/events'">EVENTS</button>
                     </li>
                     <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/pages/heritage-guest-services'">GUEST SERVICES</button>
+                        <button class="btn-nav" onclick="window.location.href='/pages/aberdeen-guest-services'">GUEST SERVICES</button>
                     </li>            
                     <li>                        
                         <button class="btn-nav" onclick="window.location.href='/jobs'">CAREERS</button>
@@ -183,19 +193,28 @@
                                 <a class="nav_a" href='/hours' target='_self'><span>Shopping Hours</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/heritage-leasing' target='_self'><span>Leasing</span></a>                                
+                                <a class="nav_a" href='/pages/aberdeen-leasing' target='_self'><span>Leasing</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/heritage-mall-info' target='_self'><span>Mall Info</span></a>                              
+                                <a class="nav_a" href='/pages/aberdeen-accessibility' target='_self'><span>Accessibility</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/heritage-accessibility' target='_self'><span>Accessibility</span></a>                      
+                                <a class="nav_a" href='/pages/aberdeen-sponsorships-donations' target='_self'><span>Sponsorships & Donations</span></a>        
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/heritage-community-wifi' target='_self'><span>Community</span></a>              
+                                <a class="nav_a" href='/pages/aberdeen-community-bookings' target='_self'><span>Community Bookings</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/heritage-contact-us' target='_self'><span>Contact Us</span></a>                            
+                                <a class="nav_a" href='/pages/aberdeen-marketing-advertising' target='_self'><span>Marketing & Advertising</span></a>                            
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/aberdeen-security' target='_self'><span>Security</span></a>                                
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/aberdeen-contact-us' target='_self'><span>Contact Us</span></a>                                
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/aberdeen-faq' target='_self'><span>FAQ</span> </a>                                
                             </li>
                         </ul>
                     </li>
@@ -214,29 +233,29 @@
             <div class="mobile_container">
                 <div class="col-md-3">
                     <div class="hour_box">  
-                        <div class="hour_info">
+                        <div>
                             <label for="hours_today" class="feature_label">HOURS TODAY</label>
                             <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                            <div id="home_hours_container" class="home_hours_info">
+                            <p id="home_hours_container">
                                 <script id="home_hours_template" type="x-tmpl-mustache/text">
                                     {%raw%}
                                     <span class="hour_title">{{weekday}}</span>
                                     <span class="hour_info">{{h}}</span>
                                     {%endraw%}
                                 </script>
-                            </div>
-                            <div class="home_hours_info">
+                            </p>
+                            <p>
                                 <span class="hour_title">Call</span>
-                                <span class="hour_info hidden-xs">(519) 371-5340</span>
+                                <span class="hour_info hidden-xs">(250) 374.3400</span>
                                 <span class="hour_info visible-xs-inline-block">
-                                    <a href="tel:(519) 371-5340">(519) 371-5340</a>    
+                                    <a href="tel:(250) 374.3400">(250) 374.3400</a>    
                                 </span>
-                            </div>
+                            </p>
                             <a href="/hours" class="check_hours">Check Holiday Hours</a>
                         </div>
                     </div> 
                     <div class="right_feature_box">
-                        <span class="feature_label">GIFT CARDS</span>   
+                        <span class="feature_label"></span>   
                         <div class="feature_box" id="feature_item">
                             <script id="feature_item_template" type="x-tmpl-mustache/text">
                                 {%raw%}
@@ -259,14 +278,9 @@
                 <script id="home_feature_template" type="x-tmpl-mustache/text">
                     {%raw%}
                     <div class="col-sm-6">
-                        <div class="img_container feature_box long_feature_box">
+                        <div class="img_container">
                             <a href="{{url}}">
-                                <img class="feature_image" alt="" src="{{image_url}}">
-                                <div class="long_feature_label">
-                                    {{name}}
-                                    <p>{{description}}</p>
-                                </div>
-                                
+                                <img alt="" src="{{image_url}}">
                             </a>
                         </div>
                     </div> 
@@ -286,10 +300,10 @@
                             <i class="fa fa-facebook-official social_icon" aria-hidden="true"></i>
                             FACEBOOK
                         </label>
-                        <div class="fb-page" data-href="https://www.facebook.com/HeritagePlaceSC/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/HeritagePlaceSC/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/HeritagePlaceSC/">Heritage Place Shopping Centre</a></blockquote></div>
+                        <div class="fb-page" data-href="https://www.facebook.com/aberdeenmall/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/aberdeenmall/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/aberdeenmall/">Aberdeen Mall</a></blockquote></div>
                     </div>
                     <div class="newsletter_box">
-                        <form action=http://mobilefringe.createsend.com/t/d/s/ykbld/ method="post" id="subForm">
+                        <form action=http://mobilefringe.createsend.com/t/d/s/ykoui/ method="post" id="subForm">
                             <label for="newsletter_box_id">
                                 <i class="fa fa-envelope social_icon" aria-hidden="true"></i>
                                 SUBSCRIBE AND GET UPDATES
@@ -298,30 +312,27 @@
                                 Subscribe to our newsletter and get exclusive deals you won't find anywhere else straight to your inbox!
                             </span>
                             <label for="fieldEmail" style="display:none"> subscribe email </label>
-                            <input id="fieldEmail" name=cm-ykbld-ykbld type="email" required placeholder="Your Email" />  
+                            <input id="fieldEmail" name=cm-ykoui-ykoui type="email" required placeholder="Your Email" />  
                             <span>
                                 <label style="display:none" for="agree_terms">Subscribe</label>
-                                    <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Heritage Place
+                                <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Aberdeen Mall
+                                
                             </span>
-            				<br />						
                             <button class="btn"/>Subscribe</button>                      
-                            <br />
-            				<span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
+                            <br/>
+                            <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                         </form>
                     </div>
                     <div class="social_links_mobile visible-xs-block">
-                        <a href="//www.facebook.com/HeritagePlaceSC/" target="_blank">
+                        <a href="" target="_blank">
                             <i class="fa fa-facebook-official social_icon" aria-hidden="true"></i>
                         </a>
-                        <a href="//twitter.com/HeritagePlaceSC" target="_blank">
+                        <a href="" target="_blank">
                              <i class="fa fa-twitter social_icon" aria-hidden="true"></i>    
                         </a>
-		                <a href="//www.pinterest.com/heritageplaceos/" target="_blank">
-		                    <i class="fa fa-pinterest social_icon" aria-hidden="true"></i>
-		                </a>
-		                <a href="//www.youtube.com/user/heritageplacemall/feed" target="_blank">
-		                    <i class="fa fa-youtube social_icon" aria-hidden="true"></i>
-	                    </a>
+                        <a href="//instagram.com/AberdeenMall#" target="_blank">
+                            <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
+                        </a>
                     </div>
                 </div>
                 
@@ -331,82 +342,97 @@
                             <i class="fa fa-twitter social_icon" aria-hidden="true"></i>
                             TWITTER                
                         </label>
-                        <a class="twitter-timeline" data-height="372" href="https://twitter.com/HeritagePlaceSC">Tweets by HeritagePlaceSC</a> 
-                        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                       <a class="twitter-timeline" data-height="350" href="https://twitter.com/AberdeenMall">Tweets by AberdeenMall</a> 
+                       <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
         		<div class="col-sm-12 col-md-4">   
+        		<div class="mobile_line_break"></div>
+        		    <div class="social_links hidden-xs">
+        		        <label for="nav_site_map_link_id" >
+                            <span><i class="fa fa-instagram social_icon" aria-hidden="true"></i></span>
+                            INSTAGRAM
+        		        </label>
+        		        <p><a href="http://instagram.com/AberdeenMall#" target="_blank">Follow Us On Instagram!</a></p>
+                    </div>
                     <div class="nav_site_map hidden-xs">
                         <label for="nav_site_map_link_id" >NAVIGATION</label>
-                        <div class="site_map_cols">
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">STORES</span>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/stores' target='_self'>Store Directory</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/map' target='_self'>Shopping Map</a>
+                        <div class="row-fluid">
+                            <div class="col-sm-6">
+                                <div id="nav_site_map_link_id">
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">STORES</span>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/stores' target='_self'>Store Directory</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/map' target='_self'>Shopping Map</a>
+                                    </div>
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">
+                                            <a href="/promotions">PROMOTIONS</a>  
+                                        </span>                                 
+                                    </div>
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">
+                                            <a href="/events">EVENTS</a>                                
+                                        </span>
+                                    </div>
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">
+                                            <a href="/pages/aberdeen-guest-services">GUEST SERVICES</a>                                
+                                        </span>
+                                    </div>
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">
+                                            <a href="/jobs">CAREERS</a>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/promotions">PROMOTIONS</a>  
-                                </span>                                 
-                            </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/events">EVENTS</a>                                
-                                </span>
-                            </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/pages/heritage-guest-services">GUEST SERVICES</a>                                
-                                </span>
-                            </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/jobs">CAREERS</a>
-                                </span>
-                            </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">ABOUT US</span>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/hours' target='_self'>Shopping Hours</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/heritage-leasing' target='_self'>Leasing</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/heritage-mall-info' target='_self'>Mall Info</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/heritage-accessibility' target='_self'>Accessibility</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/heritage-community-wifi' target='_self'>Community</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/heritage-contact-us' target='_self'>Contact Us</a>
+                            <div class="col-sm-6">
+                                <div id="nav_site_map_link_id">
+                                    <div class="nav_sitemap_item">
+                                        <span class="site_map_title">ABOUT US</span>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/hours' target='_self'>Shopping Hours</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-leasing' target='_self'>Leasing</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-accessibility' target='_self'>Accessibility</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-sponsorships-donations' target='_self'>Sponsorships & Donations</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-community-bookings' target='_self'>Community Bookings</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-marketing-advertising' target='_self'>Marketing & Advertising</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-security' target='_self'>Security</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-contact-us' target='_self'>Contact Us</a>
+                                        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
+                                        <a class="site_map_submenu" href='/pages/aberdeen-faq' target='_self'>FAQ</a>
+                                    </div>
+                                </div>   
                             </div>
                         </div>
                     </div>
-                    <div class="line_break hidden-xs"></div>
-                    <div class="social_links hidden-xs">
-    		            <span>
-    		                <a href="//www.pinterest.com/heritageplaceos/" target="_blank">
-    		                    <i class="fa fa-pinterest social_icon" aria-hidden="true"></i>
-    		                </a>
-    		            </span>
-    		            <span>
-    		                <a href="//www.youtube.com/user/heritageplacemall/feed" target="_blank">
-    		                    <i class="fa fa-youtube social_icon" aria-hidden="true"></i>
-		                    </a>
-	                    </span>
-                    </div>
                 </div>
-                <div class="line_break hidden-xs"></div>
+                <div style="clear:both;">&nbsp;</div>
         	</div>
         </div>
         <div class="footer trim_screen">
             <span>
-                &copy; 2015 Heritage Place | <a href="/pages/heritage-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+                &copy; 2015 Aberdeen Mall | <a href="/pages/aberdeen-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="//www.20vic.com/" target="_blank">
                 <img ALT="20vic_logo" src="//aberdeenmall.ca/system/site_images/photos/000/000/775/original/20vic_logo.png?1381341465" />
             </a>
+             
+            <form action="//aberdeen.us12.list-manage.com/subscribe/post-json?u=74012e50e53ebc5fb4534d4e7&amp;id=1819fc25ef&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
+                <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
+                <input type="text" name="b_74012e50e53ebc5fb4534d4e7_1819fc25ef" tabindex="-1" value="">
+            </form>
+            <div id="fb-root"></div>
         </div>
     </footer>
 </body>
