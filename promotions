@@ -83,14 +83,7 @@
                 renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
             }
             else{
-                $("#store_pomos").hide();
-            }
-            if(mall_published_promos.length > 0) {
-                $('#mall_promos').show();
-                
-            }
-            if(store_published_promos.length > 0) {
-                $('#store_promos').show();    
+                $("#store_pomos").show();
             }
         }
         loadMallDataCached(renderAll); 
