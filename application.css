@@ -1792,7 +1792,9 @@ td.stores_pin{
     .hour_box p{
         font-size: 2.1em;
     }
-    
+    .hour_info a {
+        color: inherit;
+    }
     .right_feature_box {
         margin-top: 0px;
         position: absolute;
