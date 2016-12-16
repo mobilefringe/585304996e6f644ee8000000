@@ -83,7 +83,7 @@
                 renderPromotions("#store_promo_container","#store_promo_template", store_published_promos);
             }
             else{
-                $("#store_pomos").show();
+                $("#store_promos").show();
             }
         }
         loadMallDataCached(renderAll); 
