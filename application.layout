@@ -115,7 +115,7 @@
                             <a href='/pages/heritage-accessibility'>Accessibility</a>
                         </li>        
                         <li class="mobile_menu_item">
-                          <a href='/pages/heritage-community-wifi'>Community Relations</a>
+                          <a href='/pages/heritage-community-wifi'>Community</a>
                         </li>
                         <li class="mobile_menu_item">
                           <a href='/pages/heritage-contact-us'>Contact Us</a>
@@ -192,7 +192,7 @@
                                 <a class="nav_a" href='/pages/heritage-accessibility' target='_self'><span>Accessibility</span></a>                      
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/heritage-community-wifi' target='_self'><span>Community Relations</span></a>              
+                                <a class="nav_a" href='/pages/heritage-community-wifi' target='_self'><span>Community</span></a>              
                             </li>
                             <li>
                                 <a class="nav_a" href='/pages/heritage-contact-us' target='_self'><span>Contact Us</span></a>                            
