@@ -1146,7 +1146,7 @@ a.btn-prime {
 }
 
 .hour_info a:hover {
-    color: inherit;
+    color: #000;
 }
 .check_hours a:hover {
     color: inherit;
