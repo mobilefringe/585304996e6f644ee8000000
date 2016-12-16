@@ -197,12 +197,6 @@
                             <li>
                                 <a class="nav_a" href='/pages/heritage-contact-us' target='_self'><span>Contact Us</span></a>                            
                             </li>
-                            <li>
-                                <a class="nav_a" href='/pages/heritage-security' target='_self'><span>Security</span></a>                                
-                            </li>
-                            <li>
-                                <a class="nav_a" href='/pages/heritage-parking-at-heritage-centre' target='_self'><span>Parking Info</span> </a>        
-                            </li>
                         </ul>
                     </li>
                 </ul>
