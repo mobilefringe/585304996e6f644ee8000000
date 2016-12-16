@@ -85,8 +85,12 @@
             else{
                 $("#store_pomos").hide();
             }
-            if(mall_published_promos.length > 0 && store_published_promos.length > 0 || mall_published_promos.length > 0 || store_published_promos.length > 0) {
-                $('#no_promos').show()
+            if(mall_published_promos.length > 0) {
+                $('#mall_promos').show();
+                
+            }
+            if(store_published_promos.length > 0) {
+                $('#store_promos').show();    
             }
         }
         loadMallDataCached(renderAll); 
