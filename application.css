@@ -2283,6 +2283,12 @@ td.stores_pin{
     background-color: black;
 }
 
+.page_body td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
 .nav_site_map_link {
     height: 245px;
 }
