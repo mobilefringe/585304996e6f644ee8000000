@@ -1137,9 +1137,6 @@ a.btn-prime {
     font-family: inherit;
 }
 
-.hour_info a {
-    text-decoration: none;
-}
 
 .hour_info a:hover {
     color: #000;
