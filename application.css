@@ -1989,6 +1989,8 @@ td.stores_pin{
         float: none;
         width: 100%;
         margin: 10px 0 0 0;
+    }
+    .long_feature_label {
         top: 78%;
     }
     
