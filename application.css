@@ -1251,6 +1251,7 @@ a.btn-prime {
 /************** store details *************/
 .back_to{
     margin-right: 20px;
+    text-decoration: none;
 }
 .back_to img{
     position: relative;
