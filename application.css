@@ -598,16 +598,11 @@ legend{
 }
 
 .stores_table_headers{
-    padding-top: 8px;
+    padding-top: 6px;
     padding-left: 12px;
-    height: 27px;
+    height: 36px;
     text-align: left;
-
-
-    
     font-size: 14pt;
-	
-	color: white;
 }
 
 .stores_table_headers .pull-right {
