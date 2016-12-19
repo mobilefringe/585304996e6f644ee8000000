@@ -1783,8 +1783,8 @@ td.stores_pin{
         margin-right: -20px;
     }
     
-    #site_nav li .btn-nav{
-        padding: 3px 25px;
+    #site_nav li button {
+        padding: 3px 28px;
     }
     
     .container_body{
