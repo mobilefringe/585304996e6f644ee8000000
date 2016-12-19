@@ -650,7 +650,6 @@ legend{
 .store_row_name a{
     font-family: futura, futura_medium_light_ie;
     color:#371e17;  
-    text-decoration: none;
 }
 .store_row_name a:hover{
    background-color:white;   
