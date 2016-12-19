@@ -2025,7 +2025,8 @@ td.stores_pin{
         
     }
     .accordion-heading h2.job_title, 
-    .accordion-heading h2.job_close_date{
+    .accordion-heading h2.job_close_date,
+    .accordion-inner h2.job_type{
         font-size: 1.1em;
         line-height:1;
         padding-bottom: 0;
