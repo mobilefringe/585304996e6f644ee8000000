@@ -91,7 +91,9 @@ p{
     font-size: 1.2em;
     line-height: 1.3em;
 }
-
+a:focus, a:hover {
+    text-decoration: none;
+}
 .header {
     background-color: white;
     padding:0;
