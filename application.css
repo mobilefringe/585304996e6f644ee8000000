@@ -1776,7 +1776,7 @@ td.stores_pin{
         left: 20px;
     }
     
-    #site_nav li button{
+    #site_nav li .btn-nav{
         padding: 3px 25px;
     }
     .container_body{
