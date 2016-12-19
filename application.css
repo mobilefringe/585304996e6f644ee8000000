@@ -1318,49 +1318,33 @@ hr{
     // margin-right:1%;
     width: 100%;
 }
-
 .store_promo h1.page_title {
     padding: 40px 0 0;
 }
-
 .store_promo h2 {
     padding-bottom: 5px;
     font-size: 18pt;
     font-weight: lighter;
 }
-.store_promo p {
-    // margin: 0;
-}
-
 .promo_header {
     display: inline-block;
 }
-
 .promo_date{
     color: #ff0000;
     font-family:futura_condensed;
     font-size:18pt;
 }
-
 .promo_back {
     float: right;
     margin-top: 57px;
 }
-
 .promo_back a {
     color: inherit;
-    text-decoration: none;
 }
-.promo_info{
-    // float:left;
-    // width:72%;
-}
-
 .promo_info a {
     color: inherit;
     text-decoration: none;   
 }
-
 #promo, #job {
     display: none;
 }
