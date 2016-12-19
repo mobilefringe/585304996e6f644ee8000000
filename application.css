@@ -1771,9 +1771,16 @@ td.stores_pin{
     #site_nav {
         height: 46px;
     }
+    // #site_nav ul {
+    //     top: 0;
+    //     left: 20px;
+    // }
     #site_nav ul {
         top: 0;
         left: 20px;
+        right: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
     }
     
     #site_nav li .btn-nav{
