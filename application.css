@@ -938,9 +938,6 @@ a.btn-prime {
     padding: 10px 0 15px 0;
     color: #000;
 }
-.accordion-heading h2.job_type {
-    text-transform: uppercase;
-}
 
 .accordion-heading h2.job_title .store_name {
     text-transform: uppercase;
@@ -949,7 +946,6 @@ a.btn-prime {
 .accordion-heading h2.job_close_date {
     padding-top: 0;
     color: #ff0000;
-    text-transform: uppercase;
 }
 
 .accordion-heading font{
@@ -971,7 +967,9 @@ a.btn-prime {
     padding: 9px 15px;
     border: 0px;
 }
-
+.accordion-inner h2.job_type {
+    text-transform: uppercase;
+}
 .accordion-inner ul {
     margin: 0 0 10px 25px;
     padding: 0;
