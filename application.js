@@ -654,7 +654,7 @@ function show_png_pin(trigger, map){
 					<div class="text">\
 					<strong>'+ selectedOptionName + '</strong>\
 				</div>\
-				<img src="//www.heritageplace.ca/assets/map_pin_default.png" width="45px" height="59px" alt="marker" />\
+				<img src="//www.heritageplace.ca/assets/map_pin_default.png" width="40px" height="59px" alt="marker" />\
 				</div>\
 			</div>'
 			]
