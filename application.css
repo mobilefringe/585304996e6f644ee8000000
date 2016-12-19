@@ -1779,7 +1779,7 @@ td.stores_pin{
     #site_nav li .btn-nav{
         padding: 3px 25px;
     }
-     #site_nav li .btn-nav:first-of-type {
+     #site_nav li .btn-nav:nth-child(0) {
          
         padding-left: 0;
     }
