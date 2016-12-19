@@ -75,7 +75,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var jobs = getJobsList();
+            var jobs = getJobsList().sortBy(function(o){ return o.end_date});;
             var mall_published_jobs = [];
             var store_published_jobs = [];
             $.each(jobs, function(key, val){
