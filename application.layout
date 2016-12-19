@@ -393,7 +393,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="clear:both;"></div>
+                <div class="line_break"></div>
         	</div>
         </div>
         <div class="footer trim_screen">
