@@ -15,15 +15,15 @@
     </div>
 </div>
 <script>
-    $(document).ready(function(e){
-        init(e);
-        function renderAll(){
-            var blog = getBlogDataBySlug('cornwall-main');
-            console.log(blog);
-            var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
-            
-            renderPosts('#blog_container', '#blog_template', posts);
-        }
-        loadMallDataCached(renderAll); 
-    })
+$(document).ready(function(){
+    function renderAll(){
+        init();
+        var blog = getBlogDataBySlug('cornwall-main');
+        console.log(blog);
+        var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
+        
+        renderPosts('#blog_container', '#blog_template', posts);
+    }
+    loadMallDataCached(renderAll); 
+})
 </script>
