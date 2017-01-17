@@ -1458,7 +1458,12 @@ hr{
 .controls a:hover{
     background: url(/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat scroll 95% 40% / 14px 10px white;
 }
-
+#_zi_icon {
+    background: transparent url(//www.tecumsehmall.com/assets/icons.png) -8px -8px no-repeat !important;
+}
+#_zo_icon {
+    background: transparent url(https://www.tecumsehmall.com/assets/icons.png) -58px -8px no-repeat !important;
+}
 .mapper {
     margin-top: 32px;
     margin-bottom: 10px;
