@@ -55,7 +55,7 @@
     <script src="/application.js" type="text/javascript"></script>
 
     <script>
-        setEndPoint('//twinpines.mallmaverick.com/api/v3/twinpines/all.json');
+        setEndPoint('//heritageplace.mallmaverick.com/api/v3/heritageplace/all.json');
     </script>
 </head>
 
