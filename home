@@ -4,21 +4,22 @@
             <div class="pop_up_form_container">
                 <div class="pop_up_form">
                     <h4 class="popup_header1">JOIN OUR NEWSLETTER</h4>
-                    <form method="post" action ="http://mobilefringe.createsend.com/t/d/s/ykouu/"  onsubmit="return validate_pop_up()">
+                    <form action=http://mobilefringe.createsend.com/t/d/s/ykbld/ method="post" id="subForm">
                         <label for="name_pop_up">Name</label>
                         <input id="name_pop_up" type="text" name=cm-name>
                         
-                        <label for="email_pop_up">Email</label>
-                        <input id="email_pop_up" type="text" name=cm-ykouu-ykouu>
+                        <label for="fieldEmail">Email*</label>
+                        <input id="fieldEmail" name=cm-ykbld-ykbld type="email" required placeholder="Your Email" />  
                         
                         <label for="postal_pop_up" >Postal Code</label>
                         <input id="postal_pop_up" type="text" name=cm-f-ydltut>
                         
-                        <label>
-                            <input id="subscribe_newsletter_popup" type="checkbox">Subscribe to receive newsletters from Cornwall Centre
-                        </label>
-                        <br /> 
-                        <input class="btn btn-success" value = "Submit" type="submit">
+                        <label style="display:none" for="agree_terms">Subscribe</label>
+                        <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Heritage Place
+                        <br/> 
+                        <button class="btn"/>Subscribe</button>                      
+                        <br/>
+                        <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                     </form>
                 </div>
             </div>
@@ -38,7 +39,6 @@
         </script>                
     </ul>        
 </div>
-
 <script>
 $(document).ready(function(){
     function renderAll(){
@@ -53,8 +53,8 @@ $(document).ready(function(){
         // *** POP UP *** //
         var window_width = $( window ).width();
         if (window_width > 769) {
-            if($.cookie("popup_viewed") != "true"){
-                $.cookie("popup_viewed", "true", { expires: 1 });
+            // if($.cookie("popup_viewed") != "true"){
+            //     $.cookie("popup_viewed", "true", { expires: 1 });
                 var popup = getPopups()[0];
                 if (popup != undefined){
                     $('.popup_home a').attr('href', popup.photo_link)
@@ -62,51 +62,13 @@ $(document).ready(function(){
                     $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
                     $('.popup_home').show()
                 }
-            }
+            // }
         }
         
         $('.close_popup, .custom_backdrop').click(function(){
             $(".modal-backdrop").remove();
 	        $(".popup_home").remove();
-        })
-            
-        $(".popup_close").click(function(){
-            $(".popup_bg").fadeOut();
         });
-        
-        $(".btn-success").click(function(){    
-            subscribe_email_popup();
-        });
-
-        function validate_pop_up(){
-            if($('#subscribe_newsletter_popup').is(":checked"))
-            return true;
-            else{
-                alert("Please check the 'Subscribe to recieve newsletter' checkbox")
-                return false;
-            }
-        }
-    
-        function subscribe_email_popup(){ 
-            if (isValidEmailAddress($("#subscribe_email_popup").val())){   
-                var action="http://mobilefringe.createsend.com/t/d/s/ykblt/"
-                var data = {}
-                data["cm-ykblt-ykblt"] = $("#subscribe_email_popup").val();
-                data["cm-name"] = $("#subscribe_first_name").val() + " " + $("#subscribe_last_name").val();
-                $.getJSON(
-                    action + "?callback=?",
-                    data,
-                    function (data) {
-                        if (data.Status === 400) {
-                            alert("Veuillez essayer de nouveau s’il vous plaît.");
-                        } else { // 200
-                            $("#success_subscribe_popup").fadeIn();
-                        }
-                });    
-            } else {
-                alert("Veuillez entrez un courriel valide.")
-            }
-        }
     }
     loadMallData(renderAll);
 });
