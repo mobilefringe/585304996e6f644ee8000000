@@ -14,7 +14,7 @@
                         <label for="postal_pop_up" >Postal Code</label>
                         <input id="postal_pop_up" type="text" name=cm-f-ydltut>
                         <br/> 
-                        <label style="display:none" for="agree_terms">Subscribe</label>
+                        <label for="agree_terms"></label>
                         <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Heritage Place
                         <br/>
                         <button class="btn btn-success"/>Subscribe</button>                      
