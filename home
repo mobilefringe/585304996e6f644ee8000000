@@ -16,7 +16,7 @@
                         <br/> 
                         <label for="agree_terms"></label>
                         <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Heritage Place
-                        <br/>
+                        <br/><br/>
                         <button class="btn btn-success"/>Subscribe</button>                      
                         <br/>
                         <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
