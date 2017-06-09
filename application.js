@@ -228,7 +228,7 @@ function renderJobDetails(container, template, collection){
             val.store_name = store_details.name;
         }
         else{
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Heritage Place Mall";
             
         }
         
