@@ -40,12 +40,16 @@
     </ul>        
 </div>
 <script>
-$(document).ready(function(){
+$(document).ready(function(e){
+    init(e);
     function renderAll(){
-        init();
         var banners = getBanners();
         renderBanner('#home_banner_template','#home_banner', banners);
-
+        
+        setTimeout(function() {
+            show_content();
+        }, 500);
+        
         $('.flexslider').flexslider({
             animation: "slide",
         });
