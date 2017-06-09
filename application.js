@@ -387,7 +387,7 @@ function renderPromoDetails(container, template, collection){
             }
         }
         else{
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Heritage Place Mall";
             val.image_url = "";
         }
         
