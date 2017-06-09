@@ -260,7 +260,7 @@ function renderEvents(container, template, collection){
             val.event_image_url = store_details.store_front_url_abs;
         }
         else {
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Heritage Place Mall";
             // val.event_image_url = val.event_image_url_abs;
         }
         if(val.event_image_url.indexOf('missing.png') < 0){
@@ -308,7 +308,7 @@ function renderEventDetails(container, template, collection){
             }
         }
         else{
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Heritage Place Mall";
             val.image_url = "";
         }
         
@@ -344,12 +344,12 @@ function renderPromotions(container, template, collection){
             val.image_url = store_details.store_front_url_abs;
         }
         else{
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Heritage Place Mall";
             // val.image_url = "";
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > 0){
-            val.promo_image_url_abs  = "//www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108";
+            val.promo_image_url_abs  = "//codecloud.cdn.speedyrails.net/sites/585304996e6f644ee8000000/image/png/1497016943000/mall_logo.png";
         }
         
         var show_date = moment(val.show_on_web_date);
