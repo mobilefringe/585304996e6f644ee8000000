@@ -14,9 +14,9 @@
 </div>
 <div class="mobile_line_break"></div>
 <script>
-$(document).ready(function(){
+$(document).ready(function(e){
+    init(e);
     function renderAll(){
-        init();
         var stores = getStoresList();
         renderStoreList('#store_select_container','#store_select_template', stores, "stores");
         $(".mapper").prepend("<option selected>Select a Store</option>");
@@ -39,6 +39,10 @@ $(document).ready(function(){
     			container: 'zoom_container'
     		});
     	show_png_pin(".mapper", "#map_image");
+    	
+    	setTimeout(function() {
+            show_content();
+        }, 500);
     }
     loadMallDataCached(renderAll);
 })
