@@ -856,14 +856,6 @@ a.btn-nav {
     color:white;    
 }
 
-.btn-nav:hover,.btn-nav:focus,.btn-nav:active  {
-    background-image:url(PRIMARY_NAV_SELECTED_IMAGE);
-}
-
-.btn-nav a span {
-    
-}
-
 #centre_logo{
     float: left;
     height: auto;
@@ -891,10 +883,6 @@ a.btn-prime {
   margin-bottom: 10px;
 }
 
-.nav-bar{
-   background-image:url(PRIMARY_NAV_IMAGE);
-}
-
 .alphabet_bg{
     background-color:white;
     border-bottom: 2px solid #000000;
@@ -908,13 +896,11 @@ a.btn-prime {
 }
 
 .btn-prime:hover,.btn-prime:focus,.btn-prime:active,.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active  {
-	background-color:white;
-    background-image:url(PRIMARY_NAV_SELECTED_IMAGE);
+	background-color: white;
 }
 
 .btn-secondary {
     background-color: transparent;
-    // background-image:url("//www.mallmaverick.com/primary_nav_images/original/missing.png");
     color: #000;
     font-family: inherit;
     margin: 2px;
@@ -929,7 +915,6 @@ a.btn-prime {
 
 .btn-social {
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_IMAGE);
    -moz-box-shadow: -1px 1px 2px 0px #1D1D1D;
   -webkit-box-shadow: -1px 1px 2px 0px #1D1D1D;
    box-shadow: -1px 1px 2px 0px #1D1D1D;
@@ -937,14 +922,12 @@ a.btn-prime {
 
 .btn-social:hover {
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);
 }
 
 
 
 .btn-3{
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_IMAGE); 
    -moz-box-shadow: -1px 1px 2px 0px #1D1D1D;
   -webkit-box-shadow: -1px 1px 2px 0px #1D1D1D;
    box-shadow: -1px 1px 2px 0px #1D1D1D; 
@@ -952,7 +935,6 @@ a.btn-prime {
 
 .btn-3:hover{
   color:#616161;
-  background-image:url(SECONDARY_BUTTON_SELECTED_IMAGE);  
 }
 
 .caret{
@@ -1283,7 +1265,6 @@ a.btn-prime {
 }
 
 .flex-direction-nav a{
-    background: url(/system/site_images/photos/000/000/098/original/bg_direction_nav.png?1365699774) no-repeat scroll 0 0 transparent;
     height: 50px;
 }
 
@@ -1521,7 +1502,7 @@ hr{
     height: 65px;
     text-indent: -9999px;
     outline: none;
-    background:url("//www.mallmaverick.com/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836") no-repeat;
+    background: url(//codecloud.cdn.speedyrails.net/sites/585304996e6f644ee8000000/image/png/1497039299000/map_marker.png) no-repeat;
     cursor: pointer;
 }
 
@@ -1546,17 +1527,17 @@ hr{
     border-radius: 0;
     margin: 5px;
     height: auto;
-    background: url(/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat scroll 95% 40% / 14px 10px white;
+    background: url(//codecloud.cdn.speedyrails.net/sites/585304996e6f644ee8000000/image/png/1497038985000/arrow_down.png) no-repeat scroll 95% 40% / 14px 10px white;
 }
 
 .controls a:hover{
-    background: url(/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994) no-repeat scroll 95% 40% / 14px 10px white;
+    background: url(//codecloud.cdn.speedyrails.net/sites/585304996e6f644ee8000000/image/png/1497038985000/arrow_down.png) no-repeat scroll 95% 40% / 14px 10px white;
 }
 #_zi_icon {
-    background: transparent url(//www.tecumsehmall.com/assets/icons.png) -8px -8px no-repeat !important;
+    background: transparent url(//codecloud.cdn.speedyrails.net/sites/585304996e6f644ee8000000/image/png/1497039218000/icons.png) -8px -8px no-repeat !important;
 }
 #_zo_icon {
-    background: transparent url(//www.tecumsehmall.com/assets/icons.png) -58px -8px no-repeat !important;
+    background: transparent url(//codecloud.cdn.speedyrails.net/sites/585304996e6f644ee8000000/image/png/1497039218000/icons.png) -58px -8px no-repeat !important;
 }
 .mapper {
     margin-top: 32px;
