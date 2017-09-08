@@ -106,6 +106,7 @@ $(document).ready(function(e){
     init(e);
     function renderAll(){
         var stores = getStoresList();
+        console.log(stores)
         renderStoreList('#store_list_container','#store_list_template', stores, "stores");
         
         var categories = getStoreCategories();
