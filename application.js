@@ -529,7 +529,7 @@ function renderStoreListCatetories(container, template, category_list,stores){
         
         $.each( stores , function( i, store ) {
             var store_category = store.categories;
-            if(store_categories != null){
+            if(store.categories != null){
                 var a = store.categories.indexOf(category_id);
             }
             
