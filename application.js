@@ -423,9 +423,17 @@ function renderStoreList(container, template, collection, type){
                 val.alt_store_front_url = getImageURL(val.store_front_url);    
             }
         }
-
+        
+        if(val.categories != null){
+            // try {
+                val.cat_list = val.categories.join(',')
+            // }
+            // catch(err) {
+            //     console.log(err);
+            // }
+        }
+        
         var current_initial = val.name[0];
-        val.cat_list = val.categories.join(',')
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.initial = "";
             val.show = "display:none;";
