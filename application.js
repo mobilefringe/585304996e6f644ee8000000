@@ -425,12 +425,7 @@ function renderStoreList(container, template, collection, type){
         }
         
         if(val.categories != null){
-            // try {
-                val.cat_list = val.categories.join(',')
-            // }
-            // catch(err) {
-            //     console.log(err);
-            // }
+            val.cat_list = val.categories.join(',')
         }
         
         var current_initial = val.name[0];
