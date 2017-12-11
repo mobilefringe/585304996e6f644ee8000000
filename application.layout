@@ -405,7 +405,7 @@
         </div>
         <div class="footer trim_screen">
             <span>
-                &copy; <span id="current_year"></span> Heritage Mall | <a href="/pages/heritage-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+                &copy; <span id="current_year" style="padding:0"></span> Heritage Mall | <a href="/pages/heritage-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="http://www.cushmanwakefield.ca/en/" target="_blank">
                 <!--<img ALT="20vic_logo" src="//codecloud.cdn.speedyrails.net/sites/585304996e6f644ee8000000/image/png/1497017015000/20vic_logo.png" />-->
