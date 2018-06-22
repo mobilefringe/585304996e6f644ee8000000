@@ -60,74 +60,73 @@
             <!-- iphone header -->
             <div class="visible-xs-block mobile_header top_nav row-fluid" >                
                 <div class="background_bar"></div>
-                    <button type="button" data-toggle="dropdown" class="pull-right">
-                        <i class="fa fa-align-justify fa-lg"></i>
-                    </button>
-                    <ul class="dropdown-menu bottom">                                
-                        <li class="mobile_menu_header" >
-                            <a href='' >STORES</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/stores'>Store Directory</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/map'>Shopping Map</a>
-                        </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/promotions' >PROMOTIONS</a>
-                        </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/events' >EVENTS</a>
-                        </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/pages/heritage-guest-services' >GUEST SERVICES</a>
-                        </li>      
-                        <li class="mobile_menu_header" >
-                            <a href='/jobs' >CAREERS</a>
-                        </li>         
-                        <li class="mobile_menu_header" >
-                            <a href='' >ABOUT US</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/hours'>Shopping Hours</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/pages/heritage-leasing'>Leasing</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/pages/heritage-mall-info'>Mall Info</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/pages/heritage-accessibility'>Accessibility</a>
-                        </li>        
-                        <li class="mobile_menu_item">
-                          <a href='/pages/heritage-community-wifi'>Community Bookings</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                          <a href='/pages/heritage-contact-us'>Contact Us</a>
-                        </li>
-                    </ul>
-                    <a id="mobile_logo" href="/">
-                        <img src="//www.mallmaverick.com/system/sites/logo_images/000/000/026/original/mall_logo.png?1382116915" alt="Heritage Place Mall Logo"/>
-                    </a>
-                </div>
-                <!-- iphone header END --> 
-                <!--Top Nav Dynamic-->
-                <div class="hidden-xs top_nav custom_dropdown full_header">
-                    <div class="brand_nav">
-                        <div class ="row-fluid">
-                            <div class="trim_screen">
-                                <div class="select_parent pull-right">
-                                    <label for="brand_select" style="display:none">select brand</label>
-                                    <select id="brand_select">
-                                        <script id="brand_select_template" type="x-tmpl-mustache/text">
-                                            {%raw%}
-                                            <option value="{{slug}}" data-value="{{name}}">{{name}}</option>
-                                            {%endraw%}
-                                        </script>
-                                    </select>
-                                </div>  
-                            </div>
+                <button type="button" data-toggle="dropdown" class="pull-right">
+                    <i class="fa fa-align-justify fa-lg"></i>
+                </button>
+                <ul class="dropdown-menu bottom">                                
+                    <li class="mobile_menu_header" >
+                        <a href='' >STORES</a>
+                    </li>
+                    <li class="mobile_menu_item">
+                        <a href='/stores'>Store Directory</a>
+                    </li>
+                    <li class="mobile_menu_item">
+                        <a href='/map'>Shopping Map</a>
+                    </li>
+                    <li class="mobile_menu_header" >
+                        <a href='/promotions' >PROMOTIONS</a>
+                    </li>
+                    <li class="mobile_menu_header" >
+                        <a href='/events' >EVENTS</a>
+                    </li>
+                    <li class="mobile_menu_header" >
+                        <a href='/pages/heritage-guest-services' >GUEST SERVICES</a>
+                    </li>      
+                    <li class="mobile_menu_header" >
+                        <a href='/jobs' >CAREERS</a>
+                    </li>         
+                    <li class="mobile_menu_header" >
+                        <a href='' >ABOUT US</a>
+                    </li>
+                    <li class="mobile_menu_item">
+                        <a href='/hours'>Shopping Hours</a>
+                    </li>
+                    <li class="mobile_menu_item">
+                        <a href='/pages/heritage-leasing'>Leasing</a>
+                    </li>
+                    <li class="mobile_menu_item">
+                        <a href='/pages/heritage-mall-info'>Mall Info</a>
+                    </li>
+                    <li class="mobile_menu_item">
+                        <a href='/pages/heritage-accessibility'>Accessibility</a>
+                    </li>        
+                    <li class="mobile_menu_item">
+                      <a href='/pages/heritage-community-wifi'>Community Bookings</a>
+                    </li>
+                    <li class="mobile_menu_item">
+                      <a href='/pages/heritage-contact-us'>Contact Us</a>
+                    </li>
+                </ul>
+                <a id="mobile_logo" href="/">
+                    <img src="//www.mallmaverick.com/system/sites/logo_images/000/000/026/original/mall_logo.png?1382116915" alt="Heritage Place Mall Logo"/>
+                </a>
+            </div>
+            <!-- iphone header END --> 
+            <!--Top Nav Dynamic-->
+            <div class="hidden-xs top_nav custom_dropdown full_header">
+                <div class="brand_nav">
+                    <div class ="row-fluid">
+                        <div class="trim_screen">
+                            <div class="select_parent pull-right">
+                                <label for="brand_select" style="display:none">select brand</label>
+                                <select id="brand_select">
+                                    <script id="brand_select_template" type="x-tmpl-mustache/text">
+                                        {%raw%}
+                                        <option value="{{slug}}" data-value="{{name}}">{{name}}</option>
+                                        {%endraw%}
+                                    </script>
+                                </select>
+                            </div>  
                         </div>
                     </div>
                 </div>
@@ -172,14 +171,13 @@
                                 <a class="nav_a" href='/pages/heritage-leasing' target='_self'><span>Leasing</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/heritage-mall-info' target='_self'><span>Mall Info</span></a>                                
+                                <a class="nav_a" href='/pages/heritage-mall-info' target='_self'><span>Mall Info</span></a>
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/heritage-accessibility' target='_self'><span>Accessibility</span></a>                                
+                                <a class="nav_a" href='/pages/heritage-accessibility' target='_self'><span>Accessibility</span></a>
                             </li>
-                           
                             <li>
-                                <a class="nav_a" href='/pages/heritage-community-wifi' target='_self'><span>Community</span></a>                                
+                                <a class="nav_a" href='/pages/heritage-community-wifi' target='_self'><span>Community</span></a>
                             </li>
                             <li>
                                 <a class="nav_a" href='/pages/heritage-contact-us' target='_self'><span>Contact Us</span></a> 
@@ -191,13 +189,11 @@
 		   	</div>                 
 		</div>          
     </header>
-    
     <div class="trim_screen">
         <div class=" main_content row-fluid">
             <div class="col-md-9">
                 {{yield}}
             </div>
-    
             <div class="mobile_container">
                 <div class="col-md-3">
                     <div class="hour_box">  
@@ -242,7 +238,6 @@
             </div>
         </div>
     </div>
-    
     <div class="line_break"></div>
     <div class="row-fluid">
         <div class="trim_screen">
@@ -257,7 +252,6 @@
                                     {{name}}
                                     <p>{{description}}</p>
                                 </div>
-                                
                             </a>
                         </div>
                     </div> 
@@ -267,13 +261,6 @@
         </div>
     </div>
     <div class="line_break"></div>
-    
-    <!--<div class="trim_screen">-->
-    <!--    <a id="track_link" href="https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/" target="_blank">-->
-    <!--        <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/jpeg/1510252672000/Rohingya_en.jpg" alt=""/>-->
-    <!--    </a>-->
-    <!--</div>-->
-
     <footer>
         <div class="bottom_nav trim_screen">
         	<div class="row-fluid">
@@ -298,11 +285,10 @@
                             <input id="fieldEmail" name=cm-ykbld-ykbld type="email" required placeholder="Your Email" />  
                             <span>
                                 <label style="display:none" for="agree_terms">Subscribe</label>
-                                    <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Heritage Place
-                                
+                                <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Heritage Place
                             </span>
             				<br />						
-                            <button class="btn"/>Subscribe</button>                      
+                            <button class="btn">Subscribe</button>                      
                             <br />
             				<span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                         </form>
@@ -312,7 +298,7 @@
                             <i class="fa fa-facebook-official social_icon" aria-hidden="true"></i>
                         </a>
                         <a href="//twitter.com/HeritagePlaceSC" target="_blank">
-                             <i class="fa fa-twitter social_icon" aria-hidden="true"></i>    
+                            <i class="fa fa-twitter social_icon" aria-hidden="true"></i>    
                         </a>
                         <a href="//www.pinterest.com/heritageplaceos/" target="_blank">
                             <i class="fa fa-pinterest-p social_icon" aria-hidden="true"></i>
@@ -322,7 +308,6 @@
                         </a>
                     </div>
                 </div>
-                
                 <div class="col-sm-6 col-md-4">
                     <div class="hidden-xs special_box">
                         <label for="twitter_id">               
@@ -408,8 +393,7 @@
                 &copy; <span id="current_year" style="padding:0"></span> Heritage Mall | <a href="/pages/heritage-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="http://www.cushmanwakefield.ca/en/" target="_blank">
-                <!--<img ALT="20vic_logo" src="//codecloud.cdn.speedyrails.net/sites/585304996e6f644ee8000000/image/png/1497017015000/20vic_logo.png" />-->
-                <img src="//codecloud.cdn.speedyrails.net/sites/59b2e0bd6e6f64416c260000/image/png/1509381758000/CW Logos-_CW_Blackredlogo.png" class="" alt="" style="width:140px;">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59b2e0bd6e6f64416c260000/image/png/1509381758000/CW Logos-_CW_Blackredlogo.png" alt="Cushman & Wakefield Logo" style="width:140px;">
             </a>
         </div>
     </footer>
