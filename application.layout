@@ -314,10 +314,10 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="hidden-xs special_box">
-                        <label for="twitter_id">               
+                        <span for="twitter_id">               
                             <i class="fa fa-twitter social_icon" aria-hidden="true"></i>
                             TWITTER                
-                        </label>
+                        </span>
                         <a class="twitter-timeline" data-height="395" href="https://twitter.com/HeritagePlaceSC">Tweets by HeritagePlaceSC</a> 
                         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
