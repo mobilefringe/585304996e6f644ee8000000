@@ -192,6 +192,7 @@
     <div class="trim_screen">
         <div class=" main_content row-fluid">
             <div class="col-md-9">
+                <h1>Heritage Place Mall</h1>
                 {{yield}}
             </div>
             <div class="mobile_container">
