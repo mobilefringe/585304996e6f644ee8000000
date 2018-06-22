@@ -247,7 +247,7 @@
                     <div class="col-sm-6">
                         <div class="img_container feature_box long_feature_box">
                             <a href="{{url}}">
-                                <img class="feature_image" alt="" src="{{image_url}}">
+                                <img class="feature_image" src="{{image_url}}" alt="{{name}}">
                                 <div class="long_feature_label">
                                     {{name}}
                                     <p>{{description}}</p>
