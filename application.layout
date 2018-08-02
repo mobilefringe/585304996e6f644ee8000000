@@ -188,7 +188,7 @@
                                 <a class="nav_a" href='/pages/heritage-contact-us' target='_self'><span>Contact Us</span></a> 
                             </li>
                               <li>
-                                <a class="nav_a" href='/pages/heritage-act-green-initatives' target='_self'><span>ACT Green Initiatives</span></a> 
+                                <a class="nav_a" href='/pages/heritage-act-green-initiatives' target='_self'><span>ACT Green Initiatives</span></a> 
                             </li>
                         </ul>
                     </li>
@@ -401,7 +401,7 @@
                                         <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                         <a class="site_map_submenu" href='/pages/heritage-contact-us' target='_self'>Contact Us</a>
                                          <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                        <a class="site_map_submenu" href='/pages/heritage-act-green-initatives' target='_self'>ACT Green Initiatives</a>
+                                        <a class="site_map_submenu" href='/pages/heritage-act-green-initiatives' target='_self'>ACT Green Initiatives</a>
                                     </div>
                                 </div>   
                             </div>
