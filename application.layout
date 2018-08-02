@@ -106,6 +106,9 @@
                     <li class="mobile_menu_item">
                       <a href='/pages/heritage-contact-us'>Contact Us</a>
                     </li>
+                    <li class="mobile_menu_item">
+                      <a href='/pages/heritage-act-green-initiatives'>ACT Green Initiatives</a>
+                    </li>
                 </ul>
                 <a id="mobile_logo" href="/">
                     <img src="//www.mallmaverick.com/system/sites/logo_images/000/000/026/original/mall_logo.png?1382116915" alt="Heritage Place Mall Logo"/>
