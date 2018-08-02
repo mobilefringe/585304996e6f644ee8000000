@@ -182,6 +182,9 @@
                             <li>
                                 <a class="nav_a" href='/pages/heritage-contact-us' target='_self'><span>Contact Us</span></a> 
                             </li>
+                             <li>
+                                <a class="nav_a" href='/pages/heritage-act-green-initiatives' target='_self'><span>ACT Green Initiatives</span></a> 
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -377,6 +380,7 @@
                                         <a class="site_map_submenu" href='/pages/heritage-accessibility' target='_self'>Accessibility</a>
                                         <a class="site_map_submenu" href='/pages/heritage-community-wifi' target='_self'>Community</a>
                                         <a class="site_map_submenu" href='/pages/heritage-contact-us' target='_self'>Contact Us</a>
+                                         <a class="site_map_submenu" href='/pages/heritage-act-green-initiatives' target='_self'>ACT Green Initiatives</a>
                                     </div>
                                 </nav>   
                             </div>
