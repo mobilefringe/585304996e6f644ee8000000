@@ -56,7 +56,9 @@ p {
 a, a:focus, a:hover {
     text-decoration: none;
 }
-
+.margin_20 {
+    margin-bottom: 20px;
+}
 /* *** LOADER *** */
 .loader_backdrop{
     padding-top: 10%;
