@@ -15,7 +15,7 @@
                         <input id="postal_pop_up" type="text" name=cm-f-ydltut>
                         <br/> 
                         <label for="agree"></label>
-                        <input type="checkbox" class="info_check" id="agree"/> I agree to receive newsletters from Heritage Place
+                        <input type="checkbox" class="info_check" id="agree" required /> I agree to receive newsletters from Heritage Place
                         <br/><br/>
                         <button class="btn btn-success">Subscribe</button>                      
                         <br/><br/>
