@@ -1,6 +1,6 @@
 <div class="promo_page">
     <div>
-        <div class="has_mall_promos">
+        <div class="has_mall_promos hidden_now">
             <h1 class="page_title">Mall Promotions</h1>
             <hr>
             <h3 id="mall_promos" class="hidden_now">There are currently no mall promotions available, please check back again later.</h3>
@@ -24,7 +24,7 @@
                 </script>
             </div>
         </div>
-        <div class="has_store_promos">
+        <div class="has_store_promos hidden_now">
             <h1 class="page_title" id="store_promos">Store Promotions</h1>
             <hr>
             <h3 id="store_promo" class="hidden_now">There are currently no store promotions available, please check back again later.</h3>
