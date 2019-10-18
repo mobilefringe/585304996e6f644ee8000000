@@ -8,7 +8,7 @@
         <div id="mall_promo_container">
             <script id="mall_promo_template" type="x-tmpl-mustache/text">
                 <h1 class="page_title">Mall Promotions</h1>
-                <hr>
+                // <hr>
                 <div class="row-fluid store_promo">
                     <div class="col-sm-3">
                         <a  href="{{promo_image_url_abs}}" data-lightbox="{{name}}">
