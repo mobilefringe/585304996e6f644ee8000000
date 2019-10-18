@@ -26,13 +26,13 @@
                 <div class="line_break">&nbsp;</div>
             </script>
         </div>
-        <!--<h1 class="page_title" id="store_promos">Store Promotions</h1>-->
-        <!--<hr>-->
-        <!--<h3 id="store_promo" class="hidden_now">There are currently no store promotions available, please check back again later.</h3>-->
+        <h1 class="page_title" id="store_promos">Store Promotions</h1>
+        <hr>
+        <h3 id="store_promo" class="hidden_now">There are currently no store promotions available, please check back again later.</h3>
         <div id="store_promo_container"> 
             <script id="store_promo_template" type="x-tmpl-mustache/text">
-                <h1 class="page_title" id="store_promos">Store Promotions</h1>
-                <hr>
+                // <h1 class="page_title" id="store_promos">Store Promotions</h1>
+                // <hr>
                 <div class="row-fluid store_promo">
                     <div class="col-sm-3">
                         <a  href="{{promo_image_url_abs}}" data-lightbox="{{name}}">
