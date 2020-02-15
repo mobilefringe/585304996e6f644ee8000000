@@ -273,11 +273,11 @@
     </div>
     <div class="line_break"></div>
     
-    <div class="trim_screen">
-        <a id="track_link" href="https://www.wires.org.au/" target="_blank">
-            <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/59b2e0bd6e6f64416c260000/image/jpeg/1578946112000/1006x500.jpg" alt=""/>
-        </a>
-    </div>
+    <!--<div class="trim_screen">-->
+    <!--    <a id="track_link" href="https://www.wires.org.au/" target="_blank">-->
+    <!--        <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/59b2e0bd6e6f64416c260000/image/jpeg/1578946112000/1006x500.jpg" alt=""/>-->
+    <!--    </a>-->
+    <!--</div>-->
     <footer>
         <div class="bottom_nav trim_screen">
         	<div class="row-fluid">
