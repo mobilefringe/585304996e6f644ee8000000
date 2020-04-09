@@ -412,9 +412,9 @@
             <span>
                 &copy; <span id="current_year" style="padding:0"></span> Heritage Mall | <a href="/pages/heritage-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
-            <a href="http://www.cushmanwakefield.ca/en/" target="_blank">
-                <img src="//codecloud.cdn.speedyrails.net/sites/59b2e0bd6e6f64416c260000/image/png/1509381758000/CW Logos-_CW_Blackredlogo.png" class="" alt="" style="width:140px;">
-            </a>
+            <!--<a href="http://www.cushmanwakefield.ca/en/" target="_blank">-->
+            <!--    <img src="//codecloud.cdn.speedyrails.net/sites/59b2e0bd6e6f64416c260000/image/png/1509381758000/CW Logos-_CW_Blackredlogo.png" class="" alt="" style="width:140px;">-->
+            <!--</a>-->
         </div>
     </footer>
     
