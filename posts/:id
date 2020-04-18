@@ -3,7 +3,7 @@
         <script id="post_template" type="x-tmpl-mustache/text">
             <h1>
                 <a href="/posts" class="back_to">
-                    <img src="//assets.mallmaverick.com/system/site_images/photos/000/000/769/original/back_btn.png?1381264220" />
+                    <img src="//mallmaverick.com/system/site_images/photos/000/000/769/original/back_btn.png?1381264220" />
                 </a>
                 {{title}}
             </h1>
